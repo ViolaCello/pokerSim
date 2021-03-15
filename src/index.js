@@ -90,3 +90,11 @@ const createAndShuffleCards = () => {
 }
 
 createAndShuffleCards();
+
+function currentHandRank(hand, board) {
+    let ranks = []
+    let suit = []
+    ranks.push(Object.keys(hand[0]),Object.keys(hand[1]))
+    suit.push(Object.values(hand[0]),Object.values(hand[1]))
+    
+}
